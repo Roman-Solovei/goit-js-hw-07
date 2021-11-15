@@ -26,6 +26,5 @@ galleryContainer.addEventListener('click', onClickHandler);
 function onClickHandler(e) {
   e.preventDefault();
   lightbox.options.captionsData = "alt";  
-  lightbox.options.captionDelay = 250;
-  console.log(lightbox.options.captionsData);
+  lightbox.options.captionDelay = 250;  
 };
